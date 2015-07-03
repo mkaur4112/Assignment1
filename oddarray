@@ -1,22 +1,19 @@
+//Given an array of integers, print only odd numbers.
 
-public class oddarray
+public class oddarray 
 {
-
-	public static void main(String[] args) {
-		
-				int a[]={3,6,1,9,2,4,7};
-				for (int i=0;i<=a.length-1;i++)
-				{
-					if (a[i]%2!=0)
-					{
-						System.out.println(a[i]);
-				}
-					
-
-			}
-
-		}
-		}
+public static void main(String[] args)
+	{
+            int[] a={3,6,1,9,2,4,7};
+	    for (int temp:a)
+		{
+		if (temp%2!=0)
+			{
+			System.out.println(temp);
+		        }
+	        }
+     }
+}
 
 
 	
