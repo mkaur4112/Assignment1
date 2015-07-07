@@ -7,8 +7,8 @@ public class palindrome
 	public static void main(String args[])
 	{
 		        System.out.println("Enter an Integer : ");
-		        Scanner sc = new Scanner(System.in);
-		        int palindrome= sc.nextInt();
+		        Scanner sc = new Scanner(System.in);  //use scanner class for reading next integer
+		        int palindrome= sc.nextInt();         //make class object using scanner object and function
 		       
 		        if(Palindrome(palindrome))
 		        {
