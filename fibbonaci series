@@ -7,16 +7,16 @@ import java.io.InputStreamReader;
 import java.util.Scanner;
 public class fibonnaci 
 	 {
-		public static void main(String args[]) throws IOException 
-		   {
-		     BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		     System.out.print("Enter a number : "); // Inputting a number
-		     int k = Integer.parseInt(br.readLine()); 
-		     if(k<0)
-		        System.out.println("Kindly enter a positive number.");
-		     else
+	public static void main(String args[]) throws IOException 
+	 {
+		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+		System.out.print("Enter a number : ");                            // Inputting a number
+		int k = Integer.parseInt(br.readLine()); 
+		if(k<0)
+		    System.out.println("Kindly enter a positive number.");
+		 else
 		     {
-		         int a=0, b=1 ,c=0;  /* 'a' is the 1st term, 'b' is the 2nd term and 'c' is the 3rd term * 'c' stores the last generated term of the Fibonacci series */
+		     int a=0, b=1 ,c=0;   //'a' is the 1st term,'b' is the 2nd term and 'c' is the 3rd term * 'c' stores the last generated term of the Fibonacci series */
 		     while(k>c)             // Loop goes on till the 3rd term is less than the given number
 		          {
 		              c = a + b;           // Generating the terms of Fibonacci Series
